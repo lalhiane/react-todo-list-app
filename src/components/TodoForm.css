@@ -1,0 +1,35 @@
+form {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+form input,
+form .submit-btn {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+form input:focus,
+form .submit-btn:focus {
+    outline: none;
+}
+
+form input {
+    width: calc(100% - 120px);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    letter-spacing: 1px;
+}
+
+form .submit-btn {
+    width: 120px;
+    background-color: #8E4AE7;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    cursor: pointer;
+}
+

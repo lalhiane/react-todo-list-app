@@ -1,0 +1,14 @@
+.todo-app {
+    width: 500px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+.main-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,20 @@
+.tasks-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks-info p {
+    letter-spacing: 1px;
+}
+
+.tasks-info .clear-btn {
+    width: 120px;
+    padding: 10px;
+    background-color: #8E4AE7;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}

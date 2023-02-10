@@ -1,0 +1,35 @@
+.task {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.task .task-label {
+    width: calc(100% - 120px);
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.task .task-title {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.task .delete-btn {
+    width: 120px;
+    background-color: #E74E40;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
